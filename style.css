@@ -47,8 +47,9 @@ header ul li{
 }
 
 header ul li a{
-    color: #8f8f8f;
+    color: #7e7e7e;
     font-size: 0.95em;
+    font-weight: 500;
 }
 
 header ul li a:hover{
@@ -104,21 +105,24 @@ header ul li.shopping img{
 }
 
 .hero-container h3{
+    font-family: 'RazerF5';
     text-transform: uppercase;
-    font-weight: 100;
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 500;
     padding: 5px;
 }
 
 .hero-container a{
+    font-family: 'RazerF5';
     font-size: 1.25em;
-    font-weight: 100;
+    font-weight: 300;
     padding: 5px;
-    color: #0da00d;
+    color: #0ee90e;
 }
 
 .hero-container a:hover span{
     text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .hero-container a span{
@@ -149,13 +153,15 @@ header ul li.shopping img{
 }
 
 .second-container h3{
+    font-family: 'RazerF5';
     text-transform: uppercase;
-    font-weight: 100;
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 500;
     padding: 5px;
 }
 
 .second-container a{
+    font-family: 'RazerF5';
     font-size: 1.25em;
     font-weight: 100;
     padding: 5px;
@@ -198,13 +204,15 @@ header ul li.shopping img{
 }
 
 .third-container h3{
+    font-family: 'RazerF5';
     text-transform: uppercase;
-    font-weight: 100;
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 500;
     padding: 5px;
 }
 
 .third-container a{
+    font-family: 'RazerF5';
     font-size: 1.25em;
     font-weight: 100;
     padding: 5px;
@@ -250,6 +258,24 @@ header ul li.shopping img{
     border-left: 5px solid #222222;
 }
 
+.forth-container3{
+    border-right: 5px solid #222222;
+}
+
+.forth-container4{
+    background-image: url(img/forth-backg2.webp);
+    border-left: 5px solid #222222;
+}
+
+.forth-container5{
+    border-right: 5px solid #222222;
+}
+
+.forth-container6{
+    background-image: url(img/forth-backg2.webp);
+    border-left: 5px solid #222222;
+}
+
 .forth-container h1{
     text-transform: uppercase;
     font-size: 2.3em;
@@ -259,14 +285,14 @@ header ul li.shopping img{
 
 .forth-container h3{
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.4em;
     padding: 5px;
 }
 
 .forth-container a{
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 300;
     padding: 10px;
     color: #0da00d;
 }
@@ -362,7 +388,13 @@ footer{
     position: absolute;
     right: 0;
     padding-left: 170px;
-    color: #0da00d;
+}
+
+.inner-footer ul li.last-heading span{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #14e314;
+    font-family: 'RazerF5';
 }
 
 .inner-footer ul li img{
@@ -381,6 +413,7 @@ footer{
 
 .inner-footer ul li a:hover{
     text-decoration: underline;
+    color: #fff;
 }
 
 .after-inner{
@@ -396,16 +429,37 @@ footer{
     position: relative;
     width: 58vw;
     height: 8vh;
+    padding-top: 20px;
 }
 
 .after-inner .inner-container ul{
     position: absolute;
     left: 0;
-    color: #555555;
+    color: #969696;
     display: flex;
 }
 
+.after-inner .inner-container ul h5{
+    font-weight: 400;
+    font-size: 0.75em;
+    padding-right: 30px;
+}
+
 .after-inner .inner-container ul li{
-    font-size: 0.9em;
-    padding-right: 5px;
+    font-size: 0.75em;
+    padding: 0 15px;
+    border-right: 1px solid #969696;
+}
+
+.after-inner .inner-container ul li.last-li{
+    border-right: none;
+}
+
+.after-inner .inner-container ul li a{
+    color: #969696;
+}
+
+.after-inner .inner-container ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
 }
